@@ -2,7 +2,7 @@
 
 > **Part 1 – Learning to See Without Being Told**
 
-[![Medium]:(https://medium.com/@priyanshu20032002/deconstructing-unsupervised-learning-discovering-patterns-without-labels-0814856b899b)
+Medium Article:(https://medium.com/@priyanshu20032002/deconstructing-unsupervised-learning-discovering-patterns-without-labels-0814856b899b)
 
 ---
 
