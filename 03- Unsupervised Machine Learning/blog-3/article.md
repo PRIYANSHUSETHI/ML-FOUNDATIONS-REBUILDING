@@ -2,7 +2,7 @@
 
 > **Part 3 – Beyond Groups: Representations and Relationships**
 
-[![Medium Profile: https://medium.com/@priyanshu20032002]
+[Medium Profile: https://medium.com/@priyanshu20032002]
 
 ---
 
