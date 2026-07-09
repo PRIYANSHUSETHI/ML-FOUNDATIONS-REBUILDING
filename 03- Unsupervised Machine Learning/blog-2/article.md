@@ -2,7 +2,7 @@
 
 > **Part 2 – Finding Structure in Chaos**
 
-[![Medium]:(https://medium.com/@priyanshu20032002)
+Medium Profile: https://medium.com/@priyanshu20032002
 
 ---
 
