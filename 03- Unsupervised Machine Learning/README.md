@@ -83,7 +83,7 @@ Topics Covered
 
 **Read the article**
 
-🔗 https://medium.com/@priyanshu20032002/28d50264f32e?sharedUserId=priyanshu20032002
+🔗 https://medium.com/@priyanshu20032002/deconstructing-unsupervised-learning-discovering-patterns-without-labels-28d50264f32e
 
 ---
 
