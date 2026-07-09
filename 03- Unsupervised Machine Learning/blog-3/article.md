@@ -38,7 +38,7 @@ By the end of this article, you'll understand:
 
 📖 **Medium**
 
-🔗 https://medium.com/@priyanshu20032002/28d50264f32e
+🔗 https://medium.com/@priyanshu20032002/deconstructing-unsupervised-learning-discovering-patterns-without-labels-28d50264f32e
 
 ---
 
