@@ -82,11 +82,11 @@ blog-2-finding-structure-in-chaos/
 
 ⬅️ **Previous:** **Part 1 – Learning to See Without Being Told**
 
-(https://medium.com/@priyanshu20032002/deconstructing-unsupervised-learning-discovering-patterns-without-labels-0814856b899b)
+https://medium.com/@priyanshu20032002/deconstructing-unsupervised-learning-discovering-patterns-without-labels-0814856b899b
 
 ➡️ **Next:** **Part 3 – Beyond Groups: Representations and Relationships**
 
-(https://medium.com/@priyanshu20032002/28d50264f32e)
+https://medium.com/@priyanshu20032002/28d50264f32e
 
 ---
 
