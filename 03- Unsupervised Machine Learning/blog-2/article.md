@@ -86,7 +86,7 @@ https://medium.com/@priyanshu20032002/deconstructing-unsupervised-learning-disco
 
 ➡️ **Next:** **Part 3 – Beyond Groups: Representations and Relationships**
 
-https://medium.com/@priyanshu20032002/28d50264f32e
+https://medium.com/@priyanshu20032002/deconstructing-unsupervised-learning-discovering-patterns-without-labels-28d50264f32e
 
 ---
 
