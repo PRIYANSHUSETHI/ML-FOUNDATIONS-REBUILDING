@@ -60,6 +60,20 @@ Only after all of that do we finally reach the algorithm.
 Instead of seeing Machine Learning as *"pick an algorithm and train it,"* I now see it as a structured workflow where every step builds on the previous one.
 
 ---
+| Step | What happens | In the notebook |
+|---|---|---|
+| 1. Reading the Data | Load the dataset before doing anything else | `pd.read_csv('placement.csv')` |
+| 2. Exploratory Data Analysis | Check shape, dtypes, and plot CGPA vs IQ to see the two classes visually | `df.shape`, `df.info()`, scatter plot colored by placement |
+| 3. Data Pre-processing | Drop the column that isn't useful for prediction | `df = df.iloc[:, 1:]` |
+| 4. Choosing Inputs and Outputs | Separate what the model already knows (CGPA, IQ) from what it should predict (placement) | `X = df.iloc[:,0:2]`, `y = df.iloc[:,-1]` |
+| 5. Splitting the Dataset | Never test on the data the model trained on | `train_test_split(X, y, test_size=0.1)` |
+| 6. Scaling the Features | Put features on a comparable scale so no single feature dominates just because of its range | `StandardScaler()` |
+| 7. Training the Model | Fit a model to the training split | `LogisticRegression().fit(X_train, y_train)` |
+| 8. Making Predictions | Generate the model's best guesses on unseen data | `clf.predict(X_test)` |
+| 9. Evaluating Performance | Compare predictions against the actual labels | `accuracy_score(y_test, y_pred)` |
+| 10. Visualizing the Decision Boundary | See how the model actually separates the two classes | `plot_decision_regions()` from `mlxtend` |
+
+---
 
 ## Medium Article
 
@@ -87,6 +101,9 @@ This project only scratches the surface.
 
 Future projects in this series will explore topics like:
 
+- Understandin the data
+- EDA
+- Handling Missing Data
 - Feature Engineering
 - Evaluation Metrics
 - Model Selection
