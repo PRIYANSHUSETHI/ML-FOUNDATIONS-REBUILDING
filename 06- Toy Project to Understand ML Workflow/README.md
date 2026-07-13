@@ -1,1 +1,109 @@
+# Before the Model: Understanding the Machine Learning Workflow
 
+> *"Before I started learning Machine Learning models, I wanted to understand what an actual Machine Learning project looks like from start to finish."*
+
+Most Machine Learning tutorials begin with an algorithm.
+
+Train a model. Make predictions. Calculate accuracy. But that's only one small piece of the puzzle.
+
+Before a model ever learns from data, there's an entire workflow that prepares the problem, cleans the data, structures the inputs, evaluates the results, and helps us understand whether the model learned anything useful.
+
+This project was my attempt to understand **that workflow**.
+
+Not to build the smartest model. Not to achieve state-of-the-art accuracy.
+
+Simply to answer one question:
+
+> **What actually happens inside a Machine Learning project?**
+
+---
+
+## What You'll Find in This Project
+
+Using a simple Student Placement dataset, this notebook walks through the complete lifecycle of a supervised Machine Learning project.
+
+- 📥 Importing the data
+- 🔍 Exploring and understanding the dataset
+- 🧹 Basic preprocessing
+- 🎯 Selecting features and target variables
+- ✂️ Splitting the data into training and testing sets
+- ⚖️ Scaling the features
+- 🤖 Training a Logistic Regression model
+- 📈 Making predictions
+- ✅ Evaluating model performance
+- 📊 Visualizing the decision boundary
+
+The goal isn't to master Logistic Regression.
+
+The goal is to understand **where every piece fits into the larger Machine Learning pipeline.**
+
+---
+
+## Tech Stack
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+---
+
+## What This Project Taught Me
+
+One realization completely changed how I look at Machine Learning.
+
+The model isn't where Machine Learning begins. It begins with understanding the problem. Then comes the data. Then exploration. Then preprocessing.
+
+Only after all of that do we finally reach the algorithm.
+
+Instead of seeing Machine Learning as *"pick an algorithm and train it,"* I now see it as a structured workflow where every step builds on the previous one.
+
+---
+
+## Medium Article
+
+I wrote a detailed article explaining the ideas behind this project and the thought process that went into building it.
+
+📖 **Before the Model: Understanding the Machine Learning Workflow**
+
+🔗 https://priyanshu20032002.medium.com/before-the-model-understanding-the-machine-learning-workflow-7f5e6dfe78e3
+
+---
+
+## Relearning Machine Learning in Public
+
+This repository is part of my journey of rebuilding my Machine Learning foundations from first principles.
+
+Rather than rushing into advanced models, I'm trying to understand **why things work** before learning **how to implement them**.
+
+Each project builds on the previous one, gradually moving from intuition to implementation.
+
+---
+
+## What's Next?
+
+This project only scratches the surface.
+
+Future projects in this series will explore topics like:
+
+- Feature Engineering
+- Evaluation Metrics
+- Model Selection
+- Bias-Variance Tradeoff
+- Cross Validation
+- Regression & Classification Algorithms
+- Ensemble Methods
+- Neural Networks
+- Deep Learning
+
+One concept, one project, one article at a time.
+
+---
+
+## Let's Connect
+
+If you're also learning Machine Learning or enjoy learning from first principles, I'd love to connect.
+
+- **LinkedIn:** https://www.linkedin.com/in/priyanshu-sethi/
+- **Medium:** https://priyanshu20032002.medium.com/
