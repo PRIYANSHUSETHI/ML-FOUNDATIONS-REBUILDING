@@ -166,8 +166,6 @@ After completing this notebook, you will be able to:
 ├── Understanding_your_Data_Asking_basic_questions.ipynb
 ├── titanic.csv
 ├── README.md
-└── assets/
-    └── blog-cover.png
 ```
 
 ---
