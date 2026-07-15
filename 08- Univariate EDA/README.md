@@ -1,70 +1,120 @@
-# Exploring Data Before Building Models: A Practical Guide to Univariate EDA
+# 📊 Univariate Exploratory Data Analysis
 
-This repository contains the Python notebook and code accompanying my article on **Univariate Exploratory Data Analysis (EDA)**, part of my **Relearning Machine Learning in Public** series.
+<div align="center">
 
-Rather than jumping directly into machine learning algorithms, this project focuses on understanding the dataset first—an essential step that often determines the success of the entire ML pipeline.
+### Part of **Relearning ML in Public** 🚀
+*Rebuilding Machine Learning foundations from scratch and documenting the journey in public.*
 
-Using the famous **Titanic dataset**, this notebook demonstrates how to perform a complete univariate analysis, understand individual features, identify patterns, detect outliers, and build intuition before moving on to feature engineering or model building.
+</div>
 
 ---
 
-## 📖 Medium Article
+## 🗺️ Machine Learning Roadmap
 
-**Read the complete article here:**
+```
+✔ Problem Framing
+
+✔ Supervised Learning
+
+✔ Unsupervised Learning
+
+✔ Tensors
+
+✔ Exploratory Data Analysis
+      ├── ✔ Univariate Analysis  ← You are here
+      ├── ⏳ Bivariate Analysis
+      └── ⏳ Multivariate Analysis
+
+⬜ Data Cleaning
+
+⬜ Feature Engineering
+
+⬜ Feature Selection
+
+⬜ Model Building
+
+⬜ Model Evaluation
+
+⬜ Model Deployment
+```
+
+---
+
+## 📖 About this Repository
+
+Before selecting a machine learning algorithm, tuning hyperparameters, or optimizing model performance, there's a much more fundamental question to answer:
+
+> **Do you actually understand your data?**
+
+That's the purpose of **Exploratory Data Analysis (EDA).**
+
+This repository explores the **first stage of EDA — Univariate Analysis**, where every feature is studied independently to understand its characteristics before investigating relationships between variables.
+
+Using the famous **Titanic dataset**, this notebook demonstrates how to:
+
+- understand the distribution of individual features
+- distinguish between categorical and numerical variables
+- identify skewness and outliers
+- summarize variables using descriptive statistics
+- build intuition before moving to preprocessing or model building
+
+Rather than treating EDA as a collection of plotting functions, the goal is to understand **why each visualization exists, what question it answers, and how it influences the rest of the machine learning workflow.**
+
+---
+
+# 📚 Resources
+
+### 📄 Companion Article
+
+**Exploring Data Before Building Models: A Practical Guide to Univariate EDA**
 
 🔗 https://priyanshu20032002.medium.com/exploring-data-before-building-models-a-practical-guide-to-univariate-eda-1d61a08e9e9b
 
----
+### 📓 Notebook
 
-## 📂 Dataset
+`EDA_Using_Univariate_Analysis.ipynb`
 
-The notebook uses the **Titanic Dataset**, one of the most widely used datasets for learning data analysis and machine learning.
+### 📊 Dataset
 
-The dataset contains information about passengers aboard the RMS Titanic, including:
+Titanic Dataset (`train.csv`)
 
-- Passenger Class
-- Age
-- Sex
-- Fare
-- Embarked
-- Number of Siblings/Spouses
-- Number of Parents/Children
-- Survival Status
+https://www.kaggle.com/c/titanic/data
 
 ---
 
-## 📌 Topics Covered
+# 🎯 What You'll Learn
 
-### Understanding Exploratory Data Analysis
+After working through this notebook, you'll be able to:
 
-- What is EDA?
-- Why EDA is the first step in every ML project
-- Types of EDA
-  - Univariate Analysis
-  - Bivariate Analysis
-  - Multivariate Analysis
+- ✅ Understand the role of Exploratory Data Analysis in the ML pipeline
+- ✅ Differentiate between categorical and numerical variables
+- ✅ Perform univariate analysis on any structured dataset
+- ✅ Choose the right visualization for different feature types
+- ✅ Interpret charts instead of simply generating them
+- ✅ Detect distributions, skewness, spread, and potential outliers
+- ✅ Build intuition before feature engineering and model training
 
 ---
 
-### Working with the Dataset
+# 🛠️ Topics Covered
+
+### Dataset Exploration
 
 - Importing libraries
-- Loading data using Pandas
-- Understanding the dataset structure
-- Separating categorical and numerical variables
+- Loading data with Pandas
+- Inspecting the dataset
+- Understanding feature types
 
 ---
 
-### Univariate Analysis of Categorical Variables
-
-Learn how to analyze categorical features using:
+### Categorical Variable Analysis
 
 - Count Plots
 - Pie Charts
 - Frequency Distribution
 - Percentage Distribution
 
-Applied to variables such as:
+Applied to:
 
 - Survived
 - Passenger Class
@@ -73,16 +123,14 @@ Applied to variables such as:
 
 ---
 
-### Univariate Analysis of Numerical Variables
-
-Learn how to analyze numerical features using:
+### Numerical Variable Analysis
 
 - Histograms
 - Distribution (KDE) Plots
 - Box Plots
-- Descriptive Statistics (`describe()`)
+- Descriptive Statistics
 
-Applied to variables such as:
+Applied to:
 
 - Age
 - Fare
@@ -91,48 +139,83 @@ Applied to variables such as:
 
 ---
 
-## 🛠️ Libraries Used
+# ⚙️ Tech Stack
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- Jupyter Notebook
 
 ---
 
-## 🎯 Learning Outcomes
+# 📂 Repository Structure
 
-After completing this notebook, you'll be able to:
-
-- Understand the role of EDA in a machine learning workflow
-- Distinguish between categorical and numerical variables
-- Perform univariate analysis on any structured dataset
-- Interpret common visualizations instead of simply creating them
-- Detect distributions, skewness, and potential outliers
-- Build intuition before feature engineering and model training
+```
+.
+├── EDA_Using_Univariate_Analysis.ipynb
+├── train.csv
+├── README.md
+```
 
 ---
 
-## 🚀 What's Next?
+# 💡 Key Takeaways
 
-This notebook covers **Univariate Exploratory Data Analysis**.
-
-The next parts of the series will explore:
-
-- **Bivariate Analysis** — Understanding relationships between two variables.
-- **Multivariate Analysis** — Discovering patterns involving multiple variables simultaneously.
-
-These techniques will complete the exploratory data analysis workflow before we move into data preprocessing and machine learning model development.
+- Exploratory Data Analysis is about **understanding data before building models.**
+- Different variable types require different analytical techniques.
+- Good visualizations answer questions rather than simply displaying information.
+- Outliers should be investigated—not automatically removed.
+- A strong univariate analysis creates the foundation for every subsequent stage of the machine learning workflow.
 
 ---
 
-## 🤝 Connect With Me
+# 🔜 What's Next?
 
-If you found this project helpful, feel free to:
+Understanding variables individually is only the beginning.
 
-⭐ Star this repository
+The next repositories in this series will cover:
 
-📖 Read the accompanying Medium article
+### 📈 Bivariate Analysis
 
-💼 Connect with me on LinkedIn to follow my **Relearning Machine Learning in Public** journey.
+Exploring relationships between **two variables**.
+
+Examples:
+
+- Does age influence survival?
+- Does passenger class affect ticket fare?
+
+---
+
+### 📊 Multivariate Analysis
+
+Understanding how **multiple variables interact simultaneously** to uncover deeper patterns hidden within the data.
+
+Together, these complete the core Exploratory Data Analysis workflow before moving into feature engineering and model building.
+
+---
+
+# 🤝 Let's Connect
+
+If you found this repository useful:
+
+⭐ Star the repository
+
+📖 Read more on Medium
+
+https://priyanshu20032002.medium.com/
+
+💼 Connect on LinkedIn
+
+https://www.linkedin.com/in/priyanshusethi/
+
+---
+
+<div align="center">
+
+### 🚀 Thanks for following my **Relearning ML in Public** journey!
+
+If this repository helped you learn something new, consider giving it a ⭐.
+
+</div>
