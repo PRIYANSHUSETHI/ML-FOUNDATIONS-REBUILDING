@@ -1,6 +1,5 @@
 # 🏷️ Handling Missing Categorical Data
 
-> **Relearning Machine Learning in Public | Day 26**
 
 Missing values are one of the most common problems encountered when working with real-world datasets.
 
